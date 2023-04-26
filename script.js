@@ -1,5 +1,5 @@
 // your code here
-<script>
+
 		const nameField = document.getElementById("name");
 		const yearField = document.getElementById("year");
 		const button = document.getElementById("button");
@@ -11,4 +11,3 @@
 			let queryString = `?name=${nameValue}&year=${yearValue}`;
 			urlField.textContent = `https://localhost:8080/${queryString}`;
 		});
-	</script>
